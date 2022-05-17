@@ -1,10 +1,11 @@
 package vehicles;
 
+import behaviour.IDrive;
 import components.Engine;
 import components.GearBox;
 import components.Tyre;
 
-public abstract class Vehicle {
+public abstract class Vehicle implements IDrive {
 
     private Engine engine;
     private Tyre tyre;
